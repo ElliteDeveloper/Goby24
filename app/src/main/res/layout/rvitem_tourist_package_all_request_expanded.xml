@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_rvitem_tourist_package_all_request_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="25dp"
+            android:background="@color/txtclr_placeholder_light_gray" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_rvitem_tourist_package_all_request_expand"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_oval_cyan_selector"
+                android:padding="8dp"
+                android:src="@drawable/down_arrow_white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/date_title"
+                            android:textColor="@color/cyan_light"
+                            android:textSize="@dimen/fontsize_small"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_date_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/date_title"
+                            android:textColor="@color/txtclr_black"
+                            android:textSize="@dimen/fontsize_small" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_tourist_spot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tourist_spot"
+                            android:textColor="@color/cyan_light"
+                            android:textSize="@dimen/fontsize_small"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_tourist_spot_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tourist_spot"
+                            android:textColor="@color/txtclr_black"
+                            android:textSize="@dimen/fontsize_small" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_rvitem_tourist_package_all_request_detail_root"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/txtclr_placeholder_light_gray" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_detail_description_title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/description_title"
+                            android:textColor="@color/cyan_light"
+                            android:textSize="@dimen/fontsize_extra_small" />
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_detail_description_value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/description_title"
+                            android:textColor="@color/txtclr_black"
+                            android:textSize="@dimen/fontsize_small"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_detail_location_title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/location_title"
+                            android:textColor="@color/cyan_light"
+                            android:textSize="@dimen/fontsize_extra_small" />
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_detail_location_value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/location_title"
+                            android:textColor="@color/txtclr_black"
+                            android:textSize="@dimen/fontsize_small"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_detail_price_title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/price_title"
+                            android:textColor="@color/cyan_light"
+                            android:textSize="@dimen/fontsize_extra_small" />
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_detail_price_value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/price_title"
+                            android:textColor="@color/txtclr_black"
+                            android:textSize="@dimen/fontsize_small"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_detail_status_title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/status_title"
+                            android:textColor="@color/cyan_light"
+                            android:textSize="@dimen/fontsize_extra_small" />
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_detail_status_value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/status_title"
+                            android:textColor="@color/txtclr_black"
+                            android:textSize="@dimen/fontsize_small"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_rvitem_tourist_package_all_request_actions_root"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_rvitem_tourist_package_all_request_detail_action_title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/action_title"
+                            android:textColor="@color/cyan_light"
+                            android:textSize="@dimen/fontsize_extra_small" />
+
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_rvitem_tourist_package_all_request_detail_action_contact"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_cyan_selector"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/action_contact_title"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/fontsize_small" />
+
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/tv_rvitem_tourist_package_all_request_detail_action_accept"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_cyan_selector"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/action_accept_title"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/fontsize_small" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

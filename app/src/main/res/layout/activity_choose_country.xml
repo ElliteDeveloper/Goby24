@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ActivityChooseCountry">
+
+    <LinearLayout
+        android:id="@+id/ll_act_choose_country_logo_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/logo" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <Spinner
+        android:id="@+id/sp_act_choose_country_language"
+        style="@style/SpinnerTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/languages"
+        android:popupBackground="@drawable/bg_editable_gray_light_normal"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/sp_act_choose_country_country"
+        style="@style/SpinnerTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:entries="@array/countries"
+        android:popupBackground="@drawable/bg_editable_gray_light_normal"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_act_choose_country_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/bg_cyan_selector"
+        android:padding="10dp"
+        android:text="@string/confirm"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/fontsize_normal" />
+
+</LinearLayout>

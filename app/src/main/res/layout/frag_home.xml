@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+
+    <ScrollView
+        android:id="@+id/sv_frag_home_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_gray_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/main_logo_height"
+                    android:src="@drawable/logo" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/main_slider_height"
+                    android:layout_marginTop="20dp">
+
+                    <com.smarteist.autoimageslider.SliderView
+                        android:id="@+id/slider_home"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:sliderAnimationDuration="1500"
+                        app:sliderAutoCycleEnabled="true"
+                        app:sliderIndicatorAnimationDuration="1500"
+                        app:sliderIndicatorGravity="center_horizontal|bottom"
+                        app:sliderIndicatorOrientation="horizontal"
+                        app:sliderIndicatorPadding="2dp"
+                        app:sliderIndicatorRadius="2dp"
+                        app:sliderIndicatorSelectedColor="@color/cyan_light"
+                        app:sliderIndicatorUnselectedColor="@color/txtclr_placeholder_light_gray"
+                        app:sliderScrollTimeInSec="3"
+                        app:sliderStartAutoCycle="true"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_frag_home_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:text="@string/your_ride_your_choice"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_super_large"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_frag_home_leaving_from"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/bg_editable_gray_light_normal"
+                    android:hint="@string/hint_leaving_from"
+                    android:inputType="textPersonName"
+                    android:paddingStart="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/txtclr_black"
+                    android:textColorHint="@color/txtclr_placeholder_light_gray"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <EditText
+                    android:id="@+id/ed_frag_home_going_to"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/bg_editable_gray_light_normal"
+                    android:hint="@string/hint_going_to"
+                    android:inputType="textPersonName"
+                    android:paddingStart="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/txtclr_black"
+                    android:textColorHint="@color/txtclr_placeholder_light_gray"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <TextView
+                    android:id="@+id/tv_frag_home_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/bg_cyan_selector"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/search"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/fontsize_normal" />
+
+                <TextView
+                    android:id="@+id/tv_frag_home_get_started"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/get_stgarted_today"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_super_large"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/ll_frag_home_find_ride_root"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/rounded_darker_gray_border_selector"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_frag_home_find_ride"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/find_ride"
+                        android:textColor="@color/txtclr_black"
+                        android:textSize="@dimen/fontsize_small" />
+
+                    <ImageView
+                        android:id="@+id/iv_frag_home_find_ride_arrow"
+                        android:layout_width="@dimen/ic_arrow_right_size"
+                        android:layout_height="@dimen/ic_arrow_right_size"
+                        android:src="@drawable/right_arrow_black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_frag_home_offer_ride_root"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/rounded_darker_gray_border_selector"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_frag_home_offer_ride"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/offer_ride"
+                        android:textColor="@color/txtclr_black"
+                        android:textSize="@dimen/fontsize_small" />
+
+                    <ImageView
+                        android:id="@+id/iv_frag_home_offer_ride_arrow"
+                        android:layout_width="@dimen/ic_arrow_right_size"
+                        android:layout_height="@dimen/ic_arrow_right_size"
+                        android:src="@drawable/right_arrow_black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_frag_home_tourist_package_root"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/rounded_darker_gray_border_selector"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_frag_home_tourist_package"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tourist_package"
+                        android:textColor="@color/txtclr_black"
+                        android:textSize="@dimen/fontsize_small" />
+
+                    <ImageView
+                        android:id="@+id/iv_frag_home_tourist_package_arrow"
+                        android:layout_width="@dimen/ic_arrow_right_size"
+                        android:layout_height="@dimen/ic_arrow_right_size"
+                        android:src="@drawable/right_arrow_black" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin_normal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_frag_home_where_want_go"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/where_to_go"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_extra_large"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_frag_home_see_most_popular_rides"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/see_most_popular_rides"
+                    android:textColor="@color/cyan_light"
+                    android:textSize="@dimen/fontsize_extra_small" />
+
+                <LinearLayout
+                    android:id="@+id/ll_frag_home_most_popular_rides_root"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/rounded_white_selector"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="15dp"
+                    android:paddingTop="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="15dp">
+
+                    <TextView
+                        android:id="@+id/tv_frag_home_most_popular_rides_title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Mumbai - Pune"
+                        android:textColor="@color/txtclr_black"
+                        android:textSize="@dimen/fontsize_small" />
+
+                    <TextView
+                        android:id="@+id/tv_frag_home_most_popular_rides_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="₹500"
+                        android:textColor="@color/txtclr_black"
+                        android:textSize="@dimen/fontsize_small"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/iv_frag_home_most_popular_rides_arrow"
+                        android:layout_width="@dimen/ic_arrow_right_size"
+                        android:layout_height="@dimen/ic_arrow_right_size"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/right_arrow_black" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_frag_home_go_literally"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/homepage_hint"
+                    android:textAlignment="center"
+                    android:textColor="@color/cyan_light"
+                    android:textSize="@dimen/fontsize_small" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

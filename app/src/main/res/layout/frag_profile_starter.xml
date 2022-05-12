@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+
+    <ScrollView
+        android:id="@+id/sv_frag_home_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="30dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_frag_profile_starter_close"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_close_black" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/main_logo_height"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/logo" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_frag_profile_starter_dashboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_frag_profile_starter_dashboard"
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:src="@drawable/ic_signin_dashboard" />
+
+                <TextView
+                    android:id="@+id/tv_frag_profile_starter_dashboard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/dashboard_title"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:background="@drawable/oval_ligher_gray"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/right_arrow_black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/txtclr_black" />
+
+            <LinearLayout
+                android:id="@+id/ll_frag_profile_starter_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_frag_profile_starter_profile"
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:src="@drawable/ic_signin_profile" />
+
+                <TextView
+                    android:id="@+id/tv_frag_profile_starter_profile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_title"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:background="@drawable/oval_ligher_gray"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/right_arrow_black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/txtclr_black" />
+
+            <LinearLayout
+                android:id="@+id/ll_frag_profile_starter_inbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/iv_frag_profile_starter_inbox"
+                        android:layout_width="@dimen/profile_starter_icon_size"
+                        android:layout_height="@dimen/profile_starter_icon_size"
+                        android:src="@drawable/ic_signin_inbox" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_frag_profile_starter_inbox_badge"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/oval_yellow_stroke"
+                        android:layout_alignEnd="@+id/iv_frag_profile_starter_inbox"
+                        android:layout_alignTop="@+id/iv_frag_profile_starter_inbox"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_frag_profile_starter_inbox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/inbox_title"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:background="@drawable/oval_ligher_gray"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/right_arrow_black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/txtclr_black" />
+
+            <LinearLayout
+                android:id="@+id/ll_frag_profile_starter_my_rides"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_frag_profile_starter_my_rides"
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:src="@drawable/ic_signin_my_rides" />
+
+                <TextView
+                    android:id="@+id/tv_frag_profile_starter_my_rides"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/my_rides_title"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:background="@drawable/oval_ligher_gray"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/right_arrow_black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/txtclr_black" />
+
+            <LinearLayout
+                android:id="@+id/ll_frag_profile_starter_payments_refunds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_frag_profile_starter_payments_refunds"
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:src="@drawable/ic_signin_payments_refunds" />
+
+                <TextView
+                    android:id="@+id/tv_frag_profile_starter_payments_refunds"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/payments_refunds_title"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:background="@drawable/oval_ligher_gray"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/right_arrow_black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/txtclr_black" />
+
+            <TextView
+                android:id="@+id/tv_frag_profile_starter_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="@string/other"
+                android:textColor="@color/txtclr_black"
+                android:textSize="@dimen/fontsize_normal"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_frag_profile_starter_change_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_frag_profile_starter_change_language"
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:src="@drawable/ic_signin_change_language" />
+
+                <TextView
+                    android:id="@+id/tv_frag_profile_starter_change_language"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/change_language_title"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:background="@drawable/oval_ligher_gray"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/right_arrow_black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/txtclr_black" />
+
+            <LinearLayout
+                android:id="@+id/ll_frag_profile_starter_privacy_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_frag_profile_starter_privacy_policy"
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:src="@drawable/ic_signin_privacy_policy" />
+
+                <TextView
+                    android:id="@+id/tv_frag_profile_starter_privacy_policy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/privacy_policy_title"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:background="@drawable/oval_ligher_gray"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/right_arrow_black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/txtclr_black" />
+
+            <LinearLayout
+                android:id="@+id/ll_frag_profile_starter_tac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_frag_profile_starter_tac"
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:src="@drawable/ic_signin_toc" />
+
+                <TextView
+                    android:id="@+id/tv_frag_profile_starter_tac"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/tac_title"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:background="@drawable/oval_ligher_gray"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/right_arrow_black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/txtclr_black" />
+
+            <LinearLayout
+                android:id="@+id/ll_frag_profile_starter_contact_support"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_frag_profile_starter_contact_support"
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:src="@drawable/ic_signin_contact_support" />
+
+                <TextView
+                    android:id="@+id/tv_frag_profile_starter_contact_support"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/contact_support_title"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:background="@drawable/oval_ligher_gray"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/right_arrow_black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/txtclr_black" />
+
+            <LinearLayout
+                android:id="@+id/ll_frag_profile_starter_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_frag_profile_starter_logout"
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:src="@drawable/ic_signin_logout" />
+
+                <TextView
+                    android:id="@+id/tv_frag_profile_starter_logout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/logout_title"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/profile_starter_icon_size"
+                    android:layout_height="@dimen/profile_starter_icon_size"
+                    android:background="@drawable/oval_ligher_gray"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/right_arrow_black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/txtclr_black" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

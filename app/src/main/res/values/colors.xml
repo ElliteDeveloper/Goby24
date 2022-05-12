@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_background">#FFFFFFFF</color>
+    <color name="light_gray_background">#FFF5F5F5</color>
+    <color name="bg_edit_field">#FFE5E5E5</color>
+    <color name="cyan_light">#FF00AEEF</color>
+    <color name="cyan_dark">#FF008CCD</color>
+    <color name="txtclr_black">#FF2E2E2E</color>
+    <color name="txtclr_gray">#FF6E6E6E</color>
+    <color name="txtclr_placeholder_light_gray">#FFC5C5C5</color>
+    <color name="stroke_gray">#FFD0D0D0</color>
+    <color name="bg_fb_normal">#FF4267B2</color>
+    <color name="bg_fb_selected">#FF224792</color>
+    <color name="bg_apple_normal">#FF2E2E2E</color>
+    <color name="bg_apple_selected">#FF0E0E0E</color>
+    <color name="badge_yellow">#FFF57F20</color>
+    <color name="yellow_normal">#FFF57F20</color>
+    <color name="yellow_pressed">#FFD55F00</color>
+    <color name="green">#FF00A761</color>
+    <color name="cyan_super_light">#FFCBF1FF</color>
+    <color name="defaultTextColor">@android:color/black</color>
+    <color name="defaultBackgroundColor">@android:color/transparent</color>
+</resources>

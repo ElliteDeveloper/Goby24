@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingStart="30dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="30dp"
+        android:paddingBottom="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_frag_verify_id_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/left_arrow_black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_logo_height"
+                android:src="@drawable/logo" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_frag_verify_id_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/vertical_margin_normal"
+            android:text="@string/verify"
+            android:textColor="@color/txtclr_black"
+            android:textSize="@dimen/fontsize_normal"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical_margin_normal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_frag_verify_id_fullname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/full_name"
+                android:textAlignment="center"
+                android:textColor="@color/txtclr_gray"
+                android:textSize="@dimen/fontsize_small" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_frag_verify_id_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/id"
+                android:textAlignment="center"
+                android:textColor="@color/txtclr_gray"
+                android:textSize="@dimen/fontsize_small" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:background="@color/txtclr_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="3">
+
+                    <ImageView
+                        android:id="@+id/iv_frag_verify_id_fullname_indicator"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/oval_yellow" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="3">
+
+                    <ImageView
+                        android:id="@+id/iv_frag_verify_id_id_indicator"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/oval_yellow" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_frag_verify_id_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/vertical_margin_normal"
+            android:text="@string/verify_id_subtitle"
+            android:textColor="@color/txtclr_black"
+            android:textSize="@dimen/fontsize_normal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_frag_verify_id_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/verify_id_message"
+            android:textAlignment="center"
+            android:textColor="@color/txtclr_black"
+            android:textSize="@dimen/fontsize_normal" />
+
+        <LinearLayout
+            android:id="@+id/ll_frag_verify_id_passport_root"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/vertical_margin_small"
+            android:background="@drawable/rounded_light_gray_radius_large_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="25dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="25dp"
+            android:paddingBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_frag_verify_id_passport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/passport"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_small"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_frag_verify_id_passport_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_photo_page"
+                    android:textColor="@color/txtclr_gray"
+                    android:textSize="@dimen/fontsize_small" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_frag_verify_id_passport"
+                android:layout_width="@dimen/ic_arrow_right_size"
+                android:layout_height="@dimen/ic_arrow_right_size"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/right_arrow_black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_frag_verify_id_aadhaar_root"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/vertical_margin_small"
+            android:background="@drawable/rounded_light_gray_radius_large_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="25dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="25dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/tv_frag_verify_id_aadhaar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/aadhaar_card"
+                android:textColor="@color/txtclr_gray"
+                android:textSize="@dimen/fontsize_small" />
+
+            <ImageView
+                android:id="@+id/iv_frag_verify_id_aadhaar_card"
+                android:layout_width="@dimen/ic_arrow_right_size"
+                android:layout_height="@dimen/ic_arrow_right_size"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/right_arrow_black" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_frag_verify_id_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_margin_small"
+            android:background="@drawable/bg_cyan_selector"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/global_continue"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/fontsize_normal" />
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingStart="30dp"
+        android:paddingTop="30dp"
+        android:paddingEnd="30dp"
+        android:paddingBottom="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_frag_ratings_list_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/left_arrow_black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_logo_height"
+                android:src="@drawable/logo" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_frag_ratings_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/vertical_margin_normal"
+            android:text="@string/ratings_main_title"
+            android:textColor="@color/txtclr_black"
+            android:textSize="@dimen/fontsize_normal"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_frag_ratings_list_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="@dimen/vertical_margin_small"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_darker_gray_border_normal"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp">
+
+            <com.idlestar.ratingstar.RatingStarView
+                android:id="@+id/rsv_frag_ratings_list_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                app:rsv_cornerRadius="2dp"
+                app:rsv_drawStrokeForEmptyStar="true"
+                app:rsv_drawStrokeForHalfStar="true"
+                app:rsv_enableSelectRating="true"
+                app:rsv_onlyHalfStar="false"
+                app:rsv_rating="4.7"
+                app:rsv_starBackgroundColor="@android:color/transparent"
+                app:rsv_starForegroundColor="@color/badge_yellow"
+                app:rsv_starMargin="3dp"
+                app:rsv_starNum="5"
+                app:rsv_strokeColor="@color/badge_yellow"
+                app:rsv_strokeWidth="2dp" />
+
+            <TextView
+                android:id="@+id/tv_frag_ratings_list_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="4.7 out of 5"
+                android:textAlignment="center"
+                android:textColor="@color/txtclr_black"
+                android:textSize="@dimen/fontsize_normal"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_frag_ratings_list_cur_counts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/vertical_margin_small"
+            android:text="@string/ratings_list_cur_count"
+            android:textColor="@color/txtclr_black"
+            android:textSize="@dimen/fontsize_normal"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lv_frag_ratings_list_data"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/vertical_margin_small"
+            android:layout_weight="1"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_pf_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Showing 10 from 160 data"
+                android:textColor="@color/cyan_light"
+                android:textSize="@dimen/fontsize_normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_pf_previous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_cyan_selector"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_prev" />
+
+                    <TextView
+                        android:id="@+id/tv_pf_prev"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/global_previous"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/fontsize_small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_pf_page_numbers"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_cyan_selector"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="1dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="1dp">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_pf_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/bg_cyan_selector"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_pf_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/global_next"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/fontsize_small" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginStart="5dp"
+                        android:src="@drawable/ic_next" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ASMSmaliIdeaPluginConfiguration">
+    <asm skipDebug="true" skipFrames="true" skipCode="false" expandFrames="false" />
+    <groovy codeStyle="LEGACY" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable-v23/bg_spinner.xml" value="0.3310810810810811" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_apple_normal.xml" value="0.32592592592592595" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_apple_selected.xml" value="0.32592592592592595" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_apple_selector.xml" value="0.32592592592592595" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_cyan_normal.xml" value="0.3310810810810811" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_cyan_selected.xml" value="0.3310810810810811" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_cyan_selector.xml" value="0.3310810810810811" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_cyan_superlight_normal.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_editable_gray_light_normal.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_fb_normal.xml" value="0.32592592592592595" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_fb_selected.xml" value="0.32592592592592595" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_fb_selector.xml" value="0.32592592592592595" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_gray_gradient_stroke.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_green_normal.xml" value="0.3175925925925926" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_otp_gray_light_normal.xml" value="0.3310810810810811" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_oval_cyan_selector.xml" value="0.2916666666666667" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_profile_main_avatar_root_bg.xml" value="0.29907407407407405" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_ratings_main_gradient.xml" value="0.3310810810810811" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_spinner.xml" value="0.3310810810810811" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_spinner_corner.xml" value="0.3310810810810811" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_spinner_large.xml" value="0.3310810810810811" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_yellow_left_rounded.xml" value="0.3416666666666667" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_yellow_left_rounded_pressed.xml" value="0.3416666666666667" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_yellow_left_rounded_selector.xml" value="0.3416666666666667" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_yellow_normal.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_yellow_right_rounded_normal.xml" value="0.3416666666666667" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_yellow_right_rounded_pressed.xml" value="0.3416666666666667" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_yellow_right_rounded_selector.xml" value="0.3416666666666667" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_yellow_rounded_stroke.xml" value="0.3416666666666667" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_yellow_selected.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/bg_yellow_selector.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/dash_1.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/dash_2.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/green_seekbar.xml" value="0.3175925925925926" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/green_seekbar_selector.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/ic_add_selector.xml" value="0.29907407407407405" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/line_yellow_horizontal.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/oval_1.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/oval_ligher_gray.xml" value="0.32314814814814813" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/oval_white.xml" value="0.3310810810810811" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/oval_yellow.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/oval_yellow_stroke.xml" value="0.32037037037037036" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/radiobutton_selector_cyan.xml" value="0.3416666666666667" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_border_cyan_normal.xml" value="0.3055555555555556" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_border_cyan_selected.xml" value="0.3055555555555556" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_border_cyan_selector.xml" value="0.3055555555555556" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_darker_gray_border_normal.xml" value="0.3333333333333333" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_darker_gray_border_selected.xml" value="0.33611111111111114" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_darker_gray_border_selector.xml" value="0.33611111111111114" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_darker_gray_border_transparent.xml" value="0.33611111111111114" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_gray_border_bg_transparent.xml" value="0.3310810810810811" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_gray_border_bg_white.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_gray_border_bg_white_1.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_gray_border_transparent.xml" value="0.33611111111111114" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_ligh_gray_normal.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_ligher_gray_border_medium.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_light_gray_normal.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_light_gray_radius_large_normal.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_light_gray_radius_large_selected.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_light_gray_radius_large_selector.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_light_gray_selected.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_light_gray_selector.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_white_normal.xml" value="0.3333333333333333" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_white_selected.xml" value="0.3333333333333333" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/rounded_white_selector.xml" value="0.3333333333333333" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/slider_indicator_enabled.xml" value="0.33611111111111114" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/start_end_location_indicator_yellow.xml" value="0.32666666666666666" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/drawable/yellow_seekbar.xml" value="0.3310810810810811" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/activity_choose_country.xml" value="0.36666666666666664" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/activity_main.xml" value="0.3233779608650875" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/dlg_add_new_spot.xml" value="0.36666666666666664" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_add_car_plate_number.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_add_vehicle_info.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_current_pwd.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_dashboard.xml" value="0.33" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_edit_travel_preferences.xml" value="0.33" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_forgot_pwd.xml" value="0.36666666666666664" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_forgot_pwd_change_pwd.xml" value="0.36666666666666664" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_home.xml" value="0.33" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_myrides_main.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_profile_main.xml" value="0.33" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_profile_picture_main.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_profile_starter.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_ratings_detail.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_ratings_list.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_ratings_main.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_ratings_overview.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_ride_detail.xml" value="0.3453009503695882" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_ride_detail_basic_ride_as_rider.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_ride_detail_basic_ride_as_traveller.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_ride_detail_ride_request_as_traveller.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_ride_detail_tourist_package_as_rider.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_ride_detail_tourist_package_as_traveller.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_ride_detail_tourist_package_request_as_traveller.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_signin.xml" value="0.33" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_signin_first.xml" value="0.36666666666666664" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_signin_success.xml" value="0.33" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_signup.xml" value="0.37453646477132263" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_tourist_pacakge_offers_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_tourist_package_main.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_tourist_package_offers_detail.xml" value="0.33" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_upload_passport.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_upload_photo_card.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_verify_email_enter_email.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_verify_email_otp.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_verify_id.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_verify_name.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_verify_phone_enter_phone.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_verify_phone_otp.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/frag_verify_photo_main.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/gvitem_tourist_package.xml" value="0.3128888888888889" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/paginator_footer.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/rvitem_myrides.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/rvitem_rides_ride_request_as_traveller.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/rvitem_rides_tourist_package_as_traveller.xml" value="0.3128888888888889" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/rvitem_rides_tourist_package_request_as_traveller.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/rvitem_tourist_package_all_request.xml" value="0.33" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/rvitem_tourist_package_all_request_expanded.xml" value="0.36666666666666664" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/slider_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/slider_ratings_overview.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/spitem_mobile_phone_prefix.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/svitem_ride_detail_tourist_package_tourist.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/tv_pf_page_number_active.xml" value="0.3171171171171171" />
+        <entry key="..\:/Srcs/Android/Goby24/WorkingSource/app/src/main/res/layout/tv_pf_page_number_inactive.xml" value="0.3171171171171171" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

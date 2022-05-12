@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_pf_pagenum"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/cyan_light"
+        android:gravity="center_vertical"
+        android:background="@drawable/oval_white"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="@dimen/fontsize_small"
+        android:text="1"/>
+</LinearLayout>

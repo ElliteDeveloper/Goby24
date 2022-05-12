@@ -1,0 +1,418 @@
+<resources>
+    <string name="app_name" translatable="false">GOBY24</string>
+    <string name="select_country">Choose your country*</string>
+    <string name="confirm" translatable="false">Confirm</string>
+
+    <!--Home page-->
+    <string name="your_ride_your_choice" translatable="false">Your ride. your choice</string>
+    <string name="search" translatable="false">Search</string>
+    <string name="get_stgarted_today" translatable="false">Get started today!</string>
+    <string name="find_ride" translatable="false">Find a ride</string>
+    <string name="search_ride" translatable="false">Search a ride</string>
+    <string name="offer_ride" translatable="false">Offer a ride</string>
+    <string name="tourist_package" translatable="false">Tourist Package</string>
+    <string name="tourist_spot" translatable="false">Tourist Spot</string>
+    <string name="choose_city" translatable="false">Choose City</string>
+    <string name="where_to_go" translatable="false">Where do you want to go</string>
+    <string name="see_most_popular_rides" translatable="false">See our most popular rides</string>
+    <string name="homepage_hint" translatable="false">Go literally anywhere from anywhere\n3 things you\'ll love about Goby24</string>
+    <string name="footer_home" translatable="false">Home</string>
+    <string name="footer_search" translatable="false">Search a ride</string>
+    <string name="footer_offer" translatable="false">Offer a ride</string>
+    <string name="footer_tourist_package" translatable="false">Tourist Package</string>
+    <string name="footer_profile" translatable="false">Profile</string>
+    <string name="hint_leaving_from" translatable="false">Leaving from...</string>
+    <string name="hint_going_to" translatable="false">Going to...</string>
+
+    <!-- Signup Page-->
+    <string name="signup_title" translatable="false">Register here</string>
+    <string name="hint_first_name" translatable="false">First name</string>
+    <string name="hint_last_name" translatable="false">Last name</string>
+    <string name="hint_phone" translatable="false">Phone Number</string>
+    <string name="hint_birthday" translatable="false">Date of Birth</string>
+    <string name="hint_email" translatable="false">Email Id</string>
+    <string name="hint_pwd" translatable="false">Password</string>
+    <string name="signup" translatable="false">Sign Up</string>
+    <string name="or" translatable="false">Or</string>
+    <string name="google_sign" translatable="false">Continue with Google</string>
+    <string name="fb_sign" translatable="false">Continue with Facebook</string>
+    <string name="apple_sign" translatable="false">Continue with Apple</string>
+    <string name="have_account" translatable="false">Already have an account?</string>
+    <string name="signin" translatable="false">Sign in</string>
+
+    <!--Singin First page-->
+    <string name="signin_first_title" translatable="false">You need to login first</string>
+    <string name="global_continue" translatable="false">Continue</string>
+    <string name="global_next" translatable="false">Next</string>
+    <string name="global_previous" translatable="false">Prev</string>
+    <string name="global_done" translatable="false">Done</string>
+
+    <!--    Signin Page-->
+    <string name="no_account" translatable="false">Don\'t have an account?</string>
+    <string name="signin_title" translatable="false">Sign in here</string>
+    <string name="forgot_pwd" translatable="false">Forgot Password</string>
+
+    <!--Forgot Pwd Page    -->
+    <string name="forgot_pwd_title" translatable="false">Forgot Password</string>
+    <string name="forgot_pwd_hint" translatable="false">Enter your email for the verification process</string>
+
+    <string name="empty_firstname" translatable="false">Please enter your first name!</string>
+    <string name="empty_lastname" translatable="false">Please enter your last name!</string>
+    <string name="empty_mobile" translatable="false">Please enter your phone number!</string>
+    <string name="empty_dob" translatable="false">Please enter your birthday!</string>
+    <string name="invalid_email" translatable="false">Please enter the valid email!</string>
+    <string name="empty_password" translatable="false">Please enter the password!</string>
+    <string name="signup_failed" translatable="false">Sign up failed!</string>
+    <string name="signin_failed" translatable="false">Sign in failed!</string>
+    <string name="global_failure" translatable="false">Operation Failure!</string>
+    <string name="empty_confirm_password" translatable="false">Please confirm the password!</string>
+    <string name="pwd_not_match" translatable="false">Password mismatch!</string>
+    <string name="email_sample" translatable="false">Jane@example.com</string>
+    <string name="confirm_pwd" translatable="false">Confirm Password</string>
+    <string name="change_pwd_title" translatable="false">Set the new password for your account so\nyou can login and access all the features.</string>
+    <string name="reset_pwd" translatable="false">Reset password</string>
+    <string name="confirm_logout_title" translatable="false">Goby24</string>
+    <string name="confirm_logout_msg" translatable="false">Are you sure to log out?</string>
+    <string name="yes" translatable="false">Yes</string>
+    <string name="no" translatable="false">No</string>
+    <string name="phone_code" translatable="false">+%s</string>
+    <string name="country_name_and_code" translatable="false">%1$s (%2$s)</string>
+    <string name="search_hint" translatable="false">Search&#8230;</string>
+    <string name="no_result_found" translatable="false">No result found</string>
+    <string name="country_code_and_phone_code" translatable="false">(%1$s) +%2$s</string>
+    <string name="country_full_name_and_phone_code" translatable="false">%1$s +%2$s</string>
+    <string name="country_full_name_and_name_code" translatable="false">%1$s (%2$s)</string>
+    <string name="country_full_name_name_code_and_phone_code" translatable="false">%1$s (%2$s) +%3$s</string>
+    <string name="error_unregister_carrier_number" translatable="false">EditText for carrier number is not registered. Register it using registerPhoneNumberTextView() before getFullNumber() or setFullNumber().</string>
+
+    <!--    Signin Success page-->
+    <string name="dashboard_title" translatable="false">Dashboard</string>
+    <string name="profile_title" translatable="false">Profile</string>
+    <string name="inbox_title" translatable="false">Inbox</string>
+    <string name="my_rides_title" translatable="false">My Rides</string>
+    <string name="my_ride_title" translatable="false">My Ride</string>
+    <string name="payments_refunds_title" translatable="false">Payments &amp; refunds</string>
+    <string name="other" translatable="false">Other</string>
+    <string name="change_language_title" translatable="false">Change Language</string>
+    <string name="privacy_policy_title" translatable="false">Privacy policy</string>
+    <string name="tac_title" translatable="false">Terms and conditions</string>
+    <string name="contact_support_title" translatable="false">Contact Support</string>
+    <string name="logout_title" translatable="false">Log out</string>
+
+    <!--    Dashboard page-->
+    <string name="messages" translatable="false">Messages</string>
+    <string name="your_current_level" translatable="false">Your current level</string>
+    <string name="level_new_comer" translatable="false">NEWCOMER</string>
+    <string name="view_edit_profile" translatable="false">View and edit your profile</string>
+    <string name="notifications" translatable="false">Notifications</string>
+    <string name="notifications_msg" translatable="false">Here is what\'s going on today</string>
+    <string name="useful_links" translatable="false">Useful Links</string>
+    <string name="ratings" translatable="false">Ratings</string>
+
+    <!--Profile Page-->
+    <string name="about_you" translatable="false">About You</string>
+    <string name="account" translatable="false">Account</string>
+    <string name="traveller" translatable="false">Traveller</string>
+    <string name="driver" translatable="false">Driver</string>
+    <string name="add_profile_picture" translatable="false">Add a profile picture</string>
+    <string name="add_mini_bio" translatable="false">Add a mini bio</string>
+    <string name="edit_personal_details" translatable="false">Edit personal details</string>
+    <string name="edit_travel_preferences" translatable="false">Edit travel preferences</string>
+    <string name="verify_govt_id" translatable="false">Verify your Govt. ID</string>
+    <string name="verify_phone_number" translatable="false">Verify your phone number</string>
+    <string name="verify_email_address" translatable="false">Verify email address</string>
+    <string name="add_vehicle" translatable="false">Add vehicle</string>
+    <string name="ratings_given" translatable="false">Ratings given</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="available_funds" translatable="false">Available funds</string>
+    <string name="bank_details" translatable="false">Bank details</string>
+    <string name="add_completed_transactions" translatable="false">Add completed transactions</string>
+    <string name="data_protection" translatable="false">Data protection</string>
+    <string name="close_my_account" translatable="false">Close my account</string>
+
+    <!--    Profile Picture Main Page-->
+    <string name="profile_picture_msg" translatable="false">Don\'t wear sunglasses,\nlook straight ahead and\nmake sure you\'re alone.</string>
+    <string name="take_photo" translatable="false">Take photo</string>
+    <string name="choose_picture" translatable="false">Choose a picture</string>
+
+    <!--    Edit Travel Preferences Page-->
+    <string name="edit_travel_preferences_title" translatable="false">Travel preferences</string>
+    <string name="chattiness" translatable="false">Chattiness</string>
+    <string name="music" translatable="false">Music</string>
+    <string name="smoking" translatable="false">Smoking</string>
+    <string name="pets" translatable="false">Pets</string>
+
+    <!--    Verify Name Page-->
+
+    <string name="verify" translatable="false">Verify</string>
+    <string name="verify_name_msg" translatable="false">First verify your name</string>
+    <string name="first_name" translatable="false">First name</string>
+    <string name="last_name" translatable="false">Last name</string>
+    <string name="full_name" translatable="false">Full name</string>
+    <string name="id" translatable="false">Id</string>
+    <string name="enter_first_name" translatable="false">Please enter your first name!</string>
+    <string name="enter_last_name" translatable="false">Please enter your last name!</string>
+    <string name="enter_valid_otp" translatable="false">Please enter the valid OTP!</string>
+
+    <!--    Verify ID Page-->
+    <string name="verify_id_subtitle" translatable="false">Verify your ID</string>
+    <string name="verify_id_message" translatable="false">Select the type of document\nyou would like to upload</string>
+    <string name="passport" translatable="false">Passport</string>
+    <string name="face_photo_page" translatable="false">Face photo page</string>
+    <string name="aadhaar_card" translatable="false">Aadhaar card</string>
+
+    <!--    Upload photo card page-->
+    <string name="upload_photo_card_title" translatable="false">Front of card</string>
+    <string name="upload_photo_card_msg" translatable="false">Upload a photo of the front\nof your card</string>
+
+    <!--    Upload passport photo page-->
+    <string name="upload_passport_title" translatable="false">Passport photo page</string>
+    <string name="upload_passport_msg1" translatable="false">Upload a photo of\nyour passport photo page</string>
+    <string name="upload_passport_msg2" translatable="false">Upload a photo of your\npassport</string>
+    <string name="upload_passport_msg3" translatable="false">Scans and photocopies are\naccepted.</string>
+    <string name="upload_passport_msg4" translatable="false">Your document should be\nclear and fully visible</string>
+
+    <!--    Verify Phone Number Page-->
+    <string name="verify_phone_enter_phone_title" translatable="false">Fill your phone number</string>
+    <string name="mobile_phone" translatable="false">Mobile phone</string>
+    <string name="enter_phone" translatable="false">Please enter your phone number</string>
+    <string name="enter_plate_number" translatable="false">Please enter your license plate number</string>
+
+    <string name="phone_swit" translatable="false">+41 Switzerland</string>
+    <string name="phone_fran" translatable="false">+33 France</string>
+    <string name="phone_ital" translatable="false">+39 Italy</string>
+    <string name="phone_indi" translatable="false">+91 India</string>
+
+    <string name="plate_number_swit" translatable="false">Switzerland</string>
+    <string name="plate_number_fran" translatable="false">France</string>
+    <string name="plate_number_ital" translatable="false">Italy</string>
+    <string name="plate_number_indi" translatable="false">India</string>
+
+    <!--    Verify Phone OTP page-->
+    <string name="verify_phone_otp_title" translatable="false">Verify your phone</string>
+    <string name="verify_phone_opt_msg" translatable="false">Please enter the verification code\nwe sent to your mobile no.</string>
+    <string name="verify_phone_opt_resend_otp" translatable="false">Resend the OTP</string>
+    <string name="verify_phone_opt_resend_send" translatable="false">Send</string>
+
+    <!--    Verify Email Page-->
+    <string name="verify_email_enter_email_title" translatable="false">Verify your email</string>
+    <string name="verify_email_enter_email_hint" translatable="false">Please enter your email</string>
+
+    <!--    Verify email OTP page-->
+    <string name="verify_email_otp_title" translatable="false">Verify your email</string>
+    <string name="verify_email_opt_msg" translatable="false">Please enter the verification code\nwe sent to your email</string>
+    <string name="verify_email_opt_resend_otp" translatable="false">Resend the OTP</string>
+    <string name="verify_email_opt_resend_send" translatable="false">Send</string>
+
+    <!--    Add Car Plate Number-->
+    <string name="add_car_plate_number_title" translatable="false">What is your license\nplate number?</string>
+    <string name="add_car_plate_number_dont_know" translatable="false">I don\'t know my license plate number</string>
+    <string name="add_car_plate_number_hint" translatable="false">EX-543-SD</string>
+    <string name="enter_car_plate_number" translatable="false">Please enter your license plate number!</string>
+
+    <!--    Vehicle Info Page-->
+    <string name="vehicle_info_brand_title" translatable="false">What\'s your vehicle\'s\nbrand?</string>
+    <string name="vehicle_info_brand_hint" translatable="false">Citroen</string>
+    <string name="vehicle_info_model_title" translatable="false">What\'s your vehicle\'s\nmodel?</string>
+    <string name="vehicle_info_model_hint" translatable="false">Citroen</string>
+    <string name="vehicle_info_kind_title" translatable="false">What kind of vehicle is it?</string>
+    <string name="vehicle_info_kind_hint" translatable="false">Citroen</string>
+    <string name="vehicle_info_color_title" translatable="false">What color is your\nvehicle?</string>
+    <string name="vehicle_info_date_title" translatable="false">When was your car made?\nPassengers like to know</string>
+    <string name="enter_brand" translatable="false">Please enter your vehicle\'s brand!</string>
+    <string name="enter_model" translatable="false">Please enter your vehicle\'s model!</string>
+    <string name="enter_kind" translatable="false">Please enter the kind of your vehicle!</string>
+    <string name="enter_date" translatable="false">Please enter when your vehicle\'s made!</string>
+
+    <!--    Ratings Main Page-->
+    <string name="ratings_main_title" translatable="false">Profile</string>
+    <string name="experience_level" translatable="false">Experience Level:</string>
+    <string name="experience_level_ambassador" translatable="false">Ambassador</string>
+    <string name="experience_level_expert" translatable="false">Expert</string>
+    <string name="experience_level_master" translatable="false">Master</string>
+    <string name="ratings_main_count_suffix" translatable="false">ratings</string>
+    <string name="ratings_main_age_suffix" translatable="false">Years Old</string>
+    <string name="verify_email_status" translatable="false">Verify your email</string>
+
+    <!--    Ratings Overview page-->
+    <string name="out_of" translatable="false"> out of </string>
+    <string name="customers_rating" translatable="false">Customers ratings</string>
+    <string name="star_5" translatable="false">5 star</string>
+    <string name="star_4" translatable="false">4 star</string>
+    <string name="star_3" translatable="false">3 star</string>
+    <string name="star_2" translatable="false">2 star</string>
+    <string name="star_1" translatable="false">1 star</string>
+    <string name="excellent" translatable="false">Excellent</string>
+    <string name="very_good" translatable="false">Very good</string>
+    <string name="good" translatable="false">Good</string>
+    <string name="disappointing" translatable="false">Disappointing</string>
+    <string name="very_disappointing" translatable="false">Very disappointing</string>
+    <string name="reviews" translatable="false">Reviews</string>
+    <string name="show_details" translatable="false">Show details</string>
+
+    <!--    Ratings Listview page-->
+    <string name="ratings_list_cur_count" translatable="false">Showing %d reviews</string>
+    <string name="current_password_title" translatable="false">Current password</string>
+    <string name="current_password_msg" translatable="false">Please enter current password</string>
+
+    <!--    Ratings Detail Page-->
+    <string name="bookride" translatable="false">Bookride</string>
+    <string name="professionalism" translatable="false">Professionalism</string>
+    <string name="driving" translatable="false">Driving</string>
+    <string name="comfort" translatable="false">Comfort</string>
+    <string name="cleanliness" translatable="false">Cleanliness</string>
+    <string name="remark" translatable="false">Remark</string>
+    <string name="car_smell" translatable="false">Car smell</string>
+    <string name="conversation" translatable="false">Conversation</string>
+    <string name="pickup" translatable="false">Pickup</string>
+    <string name="submit" translatable="false">Submit</string>
+
+    <!--    Tourist Package-->
+    <string name="tourist_package_offers" translatable="false">Tourist\npackage offers</string>
+    <string name="create_tourist_package" translatable="false">Create Request</string>
+    <string name="all_tourist_package" translatable="false">All Request</string>
+    <string name="request_from_tourist" translatable="false">Request\nfrom tourist</string>
+    <string name="offer_package" translatable="false">Offer a\npackage</string>
+
+<!--    My Rides Main Page-->
+    <string name="basic_rides" translatable="false">Basic\nRides</string>
+    <string name="ride_request" translatable="false">Ride\nRequest</string>
+    <string name="tourist_ride" translatable="false">Tourist\nRide</string>
+    <string name="tourist_requests" translatable="false">Tourist\nRequests</string>
+    <string name="rides_taken" translatable="false">Rides taken</string>
+    <string name="rides_offered" translatable="false">Rides offered</string>
+    <string name="ride_action_cancel" translatable="false">Cancel Ride</string>
+    <string name="ride_action_review" translatable="false">Review</string>
+    <string name="ride_action_ride_completed" translatable="false">Ride Completed</string>
+
+    <string-array name="vehicle_brands">
+        <item>MARUTI</item>
+    </string-array>
+    <string-array name="vehicle_models">
+        <item>SWIFT</item>
+    </string-array>
+    <string-array name="vehicle_kinds">
+        <item>Hatchback</item>
+    </string-array>
+    <string-array name="vehicle_colors">
+        <item>Black</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>German</item>
+        <item>French</item>
+    </string-array>
+
+    <string-array name="currencies">
+        <item>CHF</item>
+        <item>EURO</item>
+        <item>USD</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>Switzerland</item>
+        <item>Italy</item>
+        <item>France</item>
+        <item>India</item>
+    </string-array>
+
+    <string-array name="chattiness">
+        <item>I am Chatty when I feel comfortable</item>
+        <item>I am Chatty when I am free</item>
+        <item>I am always Chatty</item>
+    </string-array>
+
+    <string-array name="music">
+        <item>I\'ll jam depending on the mood</item>
+        <item>I\'ll always listen the music</item>
+    </string-array>
+
+    <string-array name="smoking">
+        <item>Cigarette breaks outside the car are ok</item>
+        <item>Cigarette breaks inside the car are ok</item>
+    </string-array>
+
+    <string-array name="pets">
+        <item>I\'ll travel with pets depending on the animal</item>
+        <item>I\'ll travel with all kinds of pets</item>
+    </string-array>
+
+    <string-array name="country_codes">
+        <item>Switzerland +41</item>
+        <item>Italy +39</item>
+        <item>France +33</item>
+        <item>India +91</item>
+    </string-array>
+
+<!--    Ride Detail Page-->
+    <string name="ride_amount_title" translatable="false">Amount</string>
+    <string name="duration_title" translatable="false">Duration</string>
+    <string name="payment_method_title" translatable="false">Payment method</string>
+    <string name="book_status_title" translatable="false">Booked</string>
+    <string name="contact_status_title" translatable="false">Contact</string>
+    <string name="country_title" translatable="false">Country</string>
+    <string name="vehicle_info_title" translatable="false">Vehicle Info</string>
+    <string name="distance_title" translatable="false">Distance</string>
+    <string name="days_title" translatable="false">No of Days</string>
+    <string name="no_of_tourists_title" translatable="false">No of Tourists</string>
+    <string name="journey_date_title" translatable="false">Journey Date</string>
+    <string name="journey_startdate_title" translatable="false">Journey Start Date</string>
+    <string name="journey_enddate_title" translatable="false">Journey End Date</string>
+    <string name="description_info_title" translatable="false">Descriptions</string>
+    <string name="action_contact_rider" translatable="false">Contact Rider</string>
+    <string name="action_contact_traveller" translatable="false">Contact\nTraveller</string>
+    <string name="start_time_title" translatable="false">Start time</string>
+    <string name="journey_time_title" translatable="false">Journey time</string>
+    <string name="email_verification_status" translatable="false">Email Verification</string>
+    <string name="rider_information_title" translatable="false">Rider\'s Information</string>
+    <string name="traveller_information_title" translatable="false">Traveller\'s Information</string>
+    <string name="tourist_information_title" translatable="false">Tourist\'s Information</string>
+    <string name="phone_verification_status" translatable="false">Phone Verification</string>
+    <string name="not_provided" translatable="false">Not provided yet</string>
+    <string name="pagination_items_text" translatable="false">Showing %d from %d data</string>
+    <string name="rider" translatable="false">Rider</string>
+    <string name="package_taken" translatable="false">Package Taken</string>
+    <string name="package_offered" translatable="false">Package Offered</string>
+    <string name="upcoming" translatable="false">upcoming</string>
+    <string name="ride_completed" translatable="false">ride completed</string>
+    <string name="review" translatable="false">Review</string>
+    <string name="add_new_spot" translatable="false">Add new spot</string>
+    <string name="start_address" translatable="false">Start journey from</string>
+    <string name="end_address" translatable="false">End journey to</string>
+    <string name="write_description_tourist_package" translatable="false">Write description about tourist package</string>
+    <string name="start_date" translatable="false">Journey start date</string>
+    <string name="end_date" translatable="false">Journey end date</string>
+    <string name="no_of_passengers" translatable="false">No of passengers</string>
+    <string name="package_budget" translatable="false">Package budget</string>
+    <string name="driver_type_driver" translatable="false">I am only a driver</string>
+    <string name="driver_type_guide" translatable="false">I am also a guide</string>
+    <string name="name_of_package" translatable="false">Name of the package</string>
+    <string name="upload_cover_image" translatable="false">Upload cover image</string>
+    <string name="upload_banner_image" translatable="false">Upload banner image</string>
+    <string name="choose_no_of_passenger" translatable="false">Choose the number of passenger</string>
+    <string name="choose_no_of_days" translatable="false">Choose number of days you want to spend</string>
+    <string name="choose_dates" translatable="false">Choose your available date range</string>
+    <string name="choose_times" translatable="false">Choose your available time range</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="end" translatable="false">End</string>
+    <string name="days_format_string" translatable="false">%d days</string>
+    <string name="no_tourists_format_string" translatable="false">%d tourists</string>
+    <string name="rider_type_rider" translatable="false">Rider</string>
+    <string name="rider_type_guide" translatable="false">Guide</string>
+    <string name="add_a_spot_question" translatable="false">Add a new spot?</string>
+    <string name="date_title" translatable="false">Date</string>
+    <string name="description_title" translatable="false">Description</string>
+    <string name="location_title" translatable="false">Location</string>
+    <string name="price_title" translatable="false">Price</string>
+    <string name="status_title" translatable="false">Status</string>
+    <string name="action_title" translatable="false">Action</string>
+    <string name="action_contact_title" translatable="false">Contact</string>
+    <string name="action_accept_title" translatable="false">Accept</string>
+    <string name="age_suffix" translatable="false"> Years Old</string>
+</resources>

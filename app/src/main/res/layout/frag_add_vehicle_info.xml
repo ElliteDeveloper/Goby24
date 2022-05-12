@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingStart="30dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="30dp"
+        android:paddingBottom="15dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/iv_frag_add_vehicle_info_back"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:src="@drawable/left_arrow_black" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/login_logo_height"
+                        android:src="@drawable/logo" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_frag_add_vehicle_info_brand_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:text="@string/vehicle_info_brand_title"
+                    android:textAlignment="center"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_normal"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_frag_add_vehicle_info_brand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:background="@drawable/rounded_light_gray_radius_large_normal"
+                    android:hint="@string/vehicle_info_brand_hint"
+                    android:inputType="textPersonName"
+                    android:paddingStart="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/txtclr_black"
+                    android:textColorHint="@color/txtclr_placeholder_light_gray"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <Spinner
+                    android:id="@+id/sp_frag_add_vehicle_info_brand"
+                    style="@style/SpinnerThemeWithCorner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/vertical_margin_small"
+                    android:drawSelectorOnTop="true"
+                    android:entries="@array/vehicle_brands"
+                    android:paddingStart="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="10dp"
+                    android:popupBackground="@drawable/bg_editable_gray_light_normal"
+                    android:spinnerMode="dropdown"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tv_frag_add_vehicle_info_model_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:text="@string/vehicle_info_model_title"
+                    android:textAlignment="center"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_normal"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_frag_add_vehicle_info_model"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:background="@drawable/rounded_light_gray_radius_large_normal"
+                    android:hint="@string/vehicle_info_model_hint"
+                    android:inputType="textPersonName"
+                    android:paddingStart="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/txtclr_black"
+                    android:textColorHint="@color/txtclr_placeholder_light_gray"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <Spinner
+                    android:id="@+id/sp_frag_add_vehicle_info_model"
+                    style="@style/SpinnerThemeWithCorner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/vertical_margin_small"
+                    android:drawSelectorOnTop="true"
+                    android:entries="@array/vehicle_models"
+                    android:paddingStart="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="10dp"
+                    android:popupBackground="@drawable/bg_editable_gray_light_normal"
+                    android:spinnerMode="dropdown"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tv_frag_add_vehicle_info_kind_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:text="@string/vehicle_info_kind_title"
+                    android:textAlignment="center"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_normal"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_frag_add_vehicle_info_kind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:background="@drawable/rounded_light_gray_radius_large_normal"
+                    android:hint="@string/vehicle_info_kind_hint"
+                    android:inputType="textPersonName"
+                    android:paddingStart="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/txtclr_black"
+                    android:textColorHint="@color/txtclr_placeholder_light_gray"
+                    android:textSize="@dimen/fontsize_small" />
+
+                <Spinner
+                    android:id="@+id/sp_frag_add_vehicle_info_kind"
+                    style="@style/SpinnerThemeWithCorner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/vertical_margin_small"
+                    android:drawSelectorOnTop="true"
+                    android:entries="@array/vehicle_kinds"
+                    android:paddingStart="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="10dp"
+                    android:popupBackground="@drawable/bg_editable_gray_light_normal"
+                    android:spinnerMode="dropdown"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tv_frag_add_vehicle_info_color_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:text="@string/vehicle_info_color_title"
+                    android:textAlignment="center"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_normal"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/sp_frag_add_vehicle_info_color"
+                    style="@style/SpinnerThemeWithCorner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/vertical_margin_small"
+                    android:drawSelectorOnTop="true"
+                    android:entries="@array/vehicle_colors"
+                    android:paddingStart="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="10dp"
+                    android:popupBackground="@drawable/bg_editable_gray_light_normal"
+                    android:spinnerMode="dropdown"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tv_frag_add_vehicle_info_date_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:text="@string/vehicle_info_date_title"
+                    android:textAlignment="center"
+                    android:textColor="@color/txtclr_black"
+                    android:textSize="@dimen/fontsize_normal"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_frag_add_vehicle_info_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/vertical_margin_normal"
+                    android:background="@drawable/rounded_light_gray_radius_large_normal"
+                    android:hint="2012"
+                    android:inputType="number"
+                    android:paddingStart="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="25dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/txtclr_black"
+                    android:textColorHint="@color/txtclr_placeholder_light_gray"
+                    android:textSize="@dimen/fontsize_small" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/tv_frag_add_vehicle_info_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical_margin_normal"
+            android:background="@drawable/bg_cyan_selector"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/global_done"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/fontsize_normal" />
+    </LinearLayout>
+</RelativeLayout>

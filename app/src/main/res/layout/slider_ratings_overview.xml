@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/rounded_gray_border_bg_white"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/iv_slider_ratings_overview_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/dummy_avatar"
+                app:civ_border="false" />
+
+            <TextView
+                android:id="@+id/tv_slider_ratings_overview_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="Lorem Ipsum"
+                android:textColor="@color/txtclr_black"
+                android:textSize="@dimen/fontsize_small"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_slider_ratings_overview_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="Excellent"
+                android:textColor="@color/txtclr_black"
+                android:textSize="@dimen/fontsize_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_slider_ratings_overview_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:maxLines="2"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempou"
+                android:textColor="@color/txtclr_black"
+                android:textSize="@dimen/fontsize_small" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingStart="30dp"
+        android:paddingTop="30dp"
+        android:paddingEnd="30dp"
+        android:paddingBottom="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_frag_myrides_main_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/left_arrow_black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_logo_height"
+                android:src="@drawable/logo" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_frag_myrides_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/vertical_margin_normal"
+            android:text="@string/my_rides_title"
+            android:textColor="@color/txtclr_black"
+            android:textSize="@dimen/fontsize_normal"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/iv_frag_myrides_filter"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_filter" />
+
+            <ImageView
+                android:id="@+id/iv_frag_myrides_search"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_search_gray" />
+        </RelativeLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tl_frag_myrides_main_main_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:tabBackground="@android:color/white"
+            app:tabIndicatorColor="@color/cyan_light"
+            app:tabIndicatorGravity="bottom"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/cyan_light"
+            app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+            app:tabTextColor="@color/txtclr_gray">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/ti_frag_myrides_main_basic_rides"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/basic_rides" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/ti_frag_myrides_main_ride_request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ride_request" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/ti_frag_myrides_main_tourist_ride"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tourist_ride" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/ti_frag_myrides_main_tourist_requests"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tourist_requests" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/txtclr_gray" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tl_frag_myrides_main_sub_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabBackground="@android:color/white"
+            app:tabIndicatorColor="@color/cyan_light"
+            app:tabIndicatorGravity="bottom"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/cyan_light"
+            app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+            app:tabTextColor="@color/txtclr_gray">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/ti_frag_myrides_main_rides_taken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rides_taken" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/ti_frag_myrides_main_rides_offered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rides_offered" />
+        </com.google.android.material.tabs.TabLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/txtclr_gray" />
+
+        <!--        <androidx.recyclerview.widget.RecyclerView-->
+        <!--            android:id="@+id/rv_frag_myrides"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_marginTop="@dimen/vertical_margin_small"-->
+        <!--            android:layout_weight="1" />-->
+        <ListView
+            android:id="@+id/lv_frag_myrides"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/vertical_margin_small"
+            android:layout_weight="1"
+            android:transcriptMode="disabled"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="3dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_frag_myrides_footer_navigation_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_pf_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/cyan_light"
+                android:textSize="@dimen/fontsize_normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_pf_previous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_cyan_selector"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_prev" />
+
+                    <TextView
+                        android:id="@+id/tv_pf_prev"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/global_previous"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/fontsize_small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_pf_page_numbers"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_cyan_selector"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="1dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="1dp">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_pf_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/bg_cyan_selector"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_pf_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/global_next"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/fontsize_small" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginStart="5dp"
+                        android:src="@drawable/ic_next" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

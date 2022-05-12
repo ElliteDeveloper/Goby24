@@ -1,0 +1,10 @@
+<resources>
+    <declare-styleable name="PaginatorFooter">
+        <attr name="pf_background" format="integer|reference" />
+        <attr name="pf_msgTxtColor" format="color|reference" />
+        <attr name="pf_prevTitle" format="string|reference" />
+        <attr name="pf_nextTitle" format="string|reference" />
+        <attr name="pf_prevDrawable" format="integer|reference"/>
+        <attr name="pf_nextDrawable" format="integer|reference"/>
+    </declare-styleable>
+</resources>

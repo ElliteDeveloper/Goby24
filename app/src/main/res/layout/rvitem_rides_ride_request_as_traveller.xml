@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_gray_gradient_stroke"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/iv_rvitem_myrides_calendar"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_calendar_blue"/>
+
+            <TextView
+                android:id="@+id/tv_rvitem_myrides_datetime"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="04 Apr 2021 6:50 PM"
+                android:textColor="@color/cyan_light"
+                android:textSize="@dimen/fontsize_small"/>
+
+            <TextView
+                android:id="@+id/tv_rvitem_myrides_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Ride Completed"
+                android:textColor="@color/txtclr_gray"
+                android:textSize="@dimen/fontsize_small"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/txtclr_placeholder_light_gray"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <LinearLayout
+                android:id="@+id/ll_dash_root"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/ll_rvitem_myrides_address_root"
+                android:layout_alignBottom="@+id/ll_rvitem_myrides_address_root"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/start_end_location_indicator_yellow" />
+
+                <RelativeLayout
+                    android:layout_width="5dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/line_yellow_vertical" />
+
+                <RelativeLayout
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/start_end_location_indicator_yellow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_rvitem_myrides_address_root"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_rvitem_myrides_address_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Navi Mumbai"
+                    android:singleLine="true"
+                    android:textColor="@color/txtclr_gray"
+                    android:textSize="@dimen/fontsize_small"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_rvitem_myrides_address_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="PunePrimpri-chinchwad"
+                    android:singleLine="true"
+                    android:textColor="@color/txtclr_gray"
+                    android:textSize="@dimen/fontsize_small"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/iv_rvitem_myrides_clock"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_clock_cyan"/>
+
+            <TextView
+                android:id="@+id/tv_rvitem_myrides_duration"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="30 Mins"
+                android:textColor="@color/txtclr_gray"
+                android:textSize="@dimen/fontsize_small"/>
+
+            <TextView
+                android:id="@+id/tv_rvitem_myrides_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Tk 600"
+                android:textStyle="bold"
+                android:textColor="@color/badge_yellow"
+                android:textSize="@dimen/fontsize_normal"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_rvitem_myrides_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_yellow_selector"
+            android:layout_marginStart="25dp"
+            android:paddingTop="5dp"
+            android:layout_marginEnd="25dp"
+            android:paddingBottom="5dp"
+            android:text="@string/ride_action_cancel"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/fontsize_normal" />
+    </LinearLayout>
+</RelativeLayout>
